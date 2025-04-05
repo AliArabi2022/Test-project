@@ -8,6 +8,6 @@ for j in range (len (price)):
             t= price[j]
             price[j]=price[i]
             price[i] = t
-            # print (price[i],price[j],price)
+            print (price[i],price[j],price)
 print (price)
 
