@@ -5,6 +5,7 @@ def new_func():
     for i in range(len(c)):
         n[i] = m // c[i]
         m = m % c[i]
+    print(m)
     print(f"{c[0]}:{n[0]},{c[1]}:{n[1]},{c[2]}:{n[2]},{c[3]}:{n[3]},{c[4]}:{n[4]},{c[5]}:{n[5]}")
 
 new_func()
