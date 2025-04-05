@@ -1,0 +1,13 @@
+money = int (input())
+price = [18,23,53,38,40,25,13]
+for j in range (len (price)):
+    # print (f'j={j}')
+    for i in range(j):
+        # print (f'i={i}')
+        if price [j]< price [i]:
+            t= price[j]
+            price[j]=price[i]
+            price[i] = t
+            # print (price[i],price[j],price)
+print (price)
+
